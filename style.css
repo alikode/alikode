@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* مهم: برای اینکه فوتر به انتهای صفحه بچسبد، ضروری است */
+}
+
+
+.carousel-item   
+
+ {
+    height: 400px; 
+    object-fit: cover;
+
+    }
+
+
+    .footer {
+        background: #7e7a7a;
+        color: rgb(243, 235, 235);
+        text-align: center;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between; /* فاصله دادن بین محتوای فوتر */
+        align-items: center;
+        width: 100%;
+    }
+    
+    .footer-icons {
+        margin-right: 20px; /* فاصله از سمت راست */
+    }
+    
+    .instagram-icon {
+        font-size: 30px; /* افزایش اندازه آیکون */
+        color: #000; /* رنگ آیکون */
+        text-decoration: none; /* حذف خط زیر لینک */
+    }
+    
+    .instagram-icon:hover {
+        color: #E4405F; /* تغییر رنگ هنگام هاور */
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh; /* حداقل ارتفاع برابر با کل صفحه */
+    }
+    
+    .main-content {
+        flex: 1; /* باعث می‌شود که محتوای اصلی تمام فضای باقی‌مانده را بگیرد */
+    }
+    
+    .footer {
+        background: #7e7a7a;
+        color: rgb(243, 235, 235);
+        text-align: center;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between; /* آیکون و متن را در دو طرف قرار می‌دهد */
+        align-items: center;
+        width: 100%;
+        margin-top: auto; /* فوتر را به پایین صفحه می‌برد */
+    }
+    
+    .footer-icons {
+        margin-right: 20px; /* کمی فاصله از سمت راست */
+    }
+    
+    .instagram-icon {
+        font-size: 30px; /* افزایش اندازه آیکون */
+        color: #000;
+        text-decoration: none;
+    }
+    
+    .instagram-icon:hover {
+        color: #E4405F;
+    }
+    
