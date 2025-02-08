@@ -1,0 +1,14 @@
+.custom-container {
+    display: flex; /* نمایش به صورت فلکس‌باکس */
+    justify-content: flex-end; /* چسباندن محتوا به سمت راست */
+    align-items: center; /* وسط‌چین کردن آیکون‌ها در راستای عمودی */
+    gap: 15px; /* فاصله بین آیکون‌ها */
+    padding-right: 50px; /* فاصله از سمت راست */
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    fill: white; /* رنگ آیکون‌ها */
+    cursor: pointer; /* به آیکون‌ها حالت کلیک می‌دهد */
+}
