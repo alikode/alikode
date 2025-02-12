@@ -1,32 +1,21 @@
-/* کانتینر اصلی */
-.header-container {
-    display: flex; /* استفاده از فِلکس برای قرار دادن آیتم‌ها در یک خط */
-    align-items: center; /* وسط‌چین کردن عمودی آیتم‌ها */
-    justify-content: space-between; /* فاصله‌گذاری مساوی بین آیتم‌ها */
-    width: 100%; /* عرض کامل */
-  }
-  
-  /* استایل برای لینک */
-  .header-container a {
-    text-decoration: none; /* حذف خط زیر لینک */
-    color: #000; /* رنگ متن */
-    font-size: 16px; /* اندازه متن */
-  }
-  
-  /* استایل برای آیکون SVG */
-  .header-container svg {
-    width: 24px;
-    height: 24px;
-    fill: #4300df; /* رنگ آیکون */
-  }
-  
-  /* استایل برای آیکن‌های داخل div */
-  .icons {
-    display: flex; /* نمایش آیکن‌ها در یک خط */
-    gap: 10px; /* فاصله بین آیکن‌ها */
-  }
-  
-  .icons i {
-    font-size: 18px; /* اندازه آیکن‌ها */
-  }
-  
+.container {
+
+
+    background-color: #2300eb;
+    /* رنگ پس‌زمینه */
+    display: flex;
+    /* نمایش آیتم‌ها در یک خط */
+    align-items: center;
+    /* وسط‌چین کردن عمودی */
+    gap: 10px;
+    /* فاصله بین آیکون و متن */
+;
+}
+
+.container a {
+    text-decoration: none;
+    /* حذف خط زیر لینک */
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
